@@ -1,0 +1,27 @@
+@keyframes MoveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20rem);
+  }
+
+  80% {
+    transform: translateX(-2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes LineText {
+  from {
+    transform: translateX(100%);
+    transform-origin: left center;
+  }
+
+  to {
+    transform: translateX(-100%);
+    transform-origin: right center;
+  }
+}

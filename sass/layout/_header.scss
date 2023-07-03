@@ -1,0 +1,42 @@
+.hero {
+  padding: 2rem;
+  height: 100vh;
+  // background: rgb(38, 97, 72);
+  // background: radial-gradient(circle, rgba(38, 97, 72, 1) 0%, rgba(0, 0, 0, 1) 100%);
+  background-color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //ANIMATION TEXT
+  position: relative; 
+  overflow-x: hidden;
+  &__img {
+    width: 25rem;
+    border-radius: 50%;
+    display: block;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    border-left: 1px solid #fff;
+    padding-left: 5rem;
+  }
+
+  // &__bg {
+  //   position: absolute;
+  //     background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  //     -webkit-background-clip: text;
+  //     -webkit-text-fill-color: transparent;
+  //     text-transform: uppercase;
+  //     bottom: 0;
+  //     font-weight: 700;
+  //     font-size: 400px;
+  //     // line-height: 400px;
+  //     opacity: 0.1;
+  //     z-index: 10;
+  //     animation: LineText 6s linear 1s infinite;
+  // }
+}

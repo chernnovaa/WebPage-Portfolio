@@ -6,6 +6,21 @@
   box-sizing: inherit;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   box-sizing: border-box;
+  font-family: $font-primary;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
