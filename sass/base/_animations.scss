@@ -25,3 +25,17 @@
     transform-origin: right center;
   }
 }
+
+.background__text {
+    background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.829) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 300px;
+    // line-height: 400px;
+    opacity: 0.5;
+    z-index: 10;
+    animation: LineText 6s linear 1s infinite;
+}
