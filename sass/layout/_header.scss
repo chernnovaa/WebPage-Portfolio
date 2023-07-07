@@ -1,7 +1,7 @@
 .hero {
   padding: 2rem;
   height: 100vh;
-  background-color: $color-black;
+  background-color: $color-primary;
 
       // background: rgb(38, 97, 72);
         // background: radial-gradient(circle, rgba(38, 97, 72, 1) 0%, rgba(0, 0, 0, 1) 100%);
@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 5rem;
-    border-left: 1px solid $color-white;
+    border-left: 1px solid $color-secondary;
     padding-left: 5rem;
   }
 }

@@ -10,7 +10,7 @@
   line-height: 1;
   letter-spacing: .3rem;
   animation: MoveInRight 1.3s ease-out;
-  color: $color-white;
+  color: $color-secondary;
 
   &--sub {
     @extend %heading;
@@ -18,16 +18,17 @@
     font-weight: 300;
     letter-spacing: .3rem;
     animation: MoveInRight 1.3s ease-out;
-    color: $color-white;
+    color: $color-secondary;
   }
 }
 
-.heading-tertiory {
-  color: $color-white;
+.heading-tertiary {
+  color: $color-secondary;
+  font-size: 3.5rem;
 }
 
 .paragraph {
-  color: $color-black;
+  color: $color-primary;
   font-size: 3.5rem;
   letter-spacing: .3rem;
   display: inline-block;
@@ -36,7 +37,7 @@
 
   &:hover {
     transform: skewX(-10deg) skewY(-2deg) scale(1.1);
-    text-shadow: .5rem 1rem 2rem rgba($color-black, .3);
+    text-shadow: $shadow;
     backface-visibility: hidden;
   }
 }
