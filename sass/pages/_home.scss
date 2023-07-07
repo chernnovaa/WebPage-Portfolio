@@ -16,8 +16,33 @@
 }
 
 .background {
-    overflow-x: hidden;
-    padding: 25rem 0;
     background-color: $color-black;
-    margin-top: -20vh;
+    transform: skewY(-7deg);
+    padding: 20rem 0;
+    overflow: hidden;
+    height: 70vh;
+    &-wrapper {
+      transform: skewY(7deg);
+    }
+}
+
+.portfolio {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 20rem 0;
+  position: relative;
+  top: -12rem;
+  &-item {
+    margin-top: 1rem;
+    &__img--desk {
+      width: 55%;
+    }
+    &__img--phone {
+      width: 20%;
+    }
+    &__img-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
 }

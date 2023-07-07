@@ -16,16 +16,16 @@
     transform: translateX(-100%);
     transform-origin: right center; } }
 
-.background__text {
+.background-wrapper__text {
+  position: absolute;
+  top: -10rem;
   background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0.829) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  bottom: 0;
   font-weight: 700;
-  font-size: 300px;
+  font-size: 30rem;
   opacity: 0.5;
-  z-index: 10;
   animation: LineText 6s linear 1s infinite; }
 
 *,
@@ -67,6 +67,9 @@ a {
     letter-spacing: .3rem;
     animation: MoveInRight 1.3s ease-out;
     color: #fff; }
+
+.heading-tertiory {
+  color: #fff; }
 
 .paragraph {
   color: #000;
@@ -110,7 +113,26 @@ a {
     margin: 0 auto; }
 
 .background {
-  overflow-x: hidden;
-  padding: 25rem 0;
   background-color: #000;
-  margin-top: -20vh; }
+  transform: skewY(-7deg);
+  padding: 20rem 0;
+  overflow: hidden;
+  height: 70vh; }
+  .background-wrapper {
+    transform: skewY(7deg); }
+
+.portfolio {
+  background-color: #000;
+  color: #fff;
+  padding: 20rem 0;
+  position: relative;
+  top: -12rem; }
+  .portfolio-item {
+    margin-top: 1rem; }
+    .portfolio-item__img--desk {
+      width: 55%; }
+    .portfolio-item__img--phone {
+      width: 20%; }
+    .portfolio-item__img-wrapper {
+      display: flex;
+      justify-content: space-evenly; }
