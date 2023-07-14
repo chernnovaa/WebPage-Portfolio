@@ -4,28 +4,28 @@
   transform: skewY(-7deg);
   margin-top: -12rem;
 
-    & > * {
-        transform: skewY(7deg);
-      }
+  & > * {
+    transform: skewY(7deg);
+  }
 
-    &__wrapper {
-      max-width: 50vw;
-      text-align: center;
-      margin: 0 auto;
-    }
+  &__wrapper {
+    max-width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .background {
-    background-color: $color-primary;
-    transform: skewY(-7deg);
-    padding: 20rem 0;
-    overflow: hidden;
-    height: 70vh;
-    position: relative;
-    margin-bottom: -12rem;
-    &-wrapper {
-      transform: skewY(7deg);
-    }
+  background-color: $color-primary;
+  transform: skewY(-7deg);
+  padding: 20rem 0;
+  overflow: hidden;
+  height: 70vh;
+  position: relative;
+  margin-bottom: -12rem;
+  &-wrapper {
+    transform: skewY(7deg);
+  }
 }
 
 .portfolio {
@@ -36,10 +36,10 @@
   &-item {
     display: flex;
     &__img--desk {
-      max-width: 65%;
+      max-width: 60%;
     }
     &__img--phone {
-      max-width: 20%;
+      max-width: 24%;
     }
     &__img-wrapper {
       display: flex;
@@ -59,18 +59,18 @@
       text-transform: uppercase;
       color: $color-secondary;
       background-color: $color-primary;
-      transition: all .2s;
+      transition: all 0.2s;
       font-size: 2rem;
 
       &:not(:last-child) {
-          margin-right: 3.5rem;
-        }
+        margin-right: 3.5rem;
+      }
 
-        &:hover {
-          color: $color-secondary;
-          box-shadow: 0 1rem 2rem rgba($color-secondary, .4);
-          transform: rotate(5deg) scale(1.3);
-        }
+      &:hover {
+        color: $color-secondary;
+        box-shadow: 0 1rem 2rem rgba($color-secondary, 0.4);
+        transform: rotate(5deg) scale(1.3);
+      }
     }
     &__btn {
       padding-top: 7rem;
