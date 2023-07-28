@@ -1,7 +1,6 @@
 .hero {
   padding: 2rem;
   height: 100vh;
-  background-color: $color-primary;
 
   // background: rgb(38, 97, 72);
   // background: radial-gradient(circle, rgba(38, 97, 72, 1) 0%, rgba(0, 0, 0, 1) 100%);
@@ -9,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   &__img {
     width: 25rem;
     border-radius: 50%;
