@@ -27,14 +27,14 @@
 }
 
 .background-wrapper__text {
-    position: absolute;
-    top: -10rem;
-    background: linear-gradient(180deg, #fff 0%, rgb(69, 69, 69) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 30rem;
-    opacity: 0.5;
-    animation: LineText 6s linear 1s infinite;
+  position: absolute;
+  top: -10rem;
+  background: linear-gradient(180deg, rgb(69, 69, 69) 60%, #fff 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30rem;
+  opacity: 0.5;
+  animation: LineText 6s linear 1s infinite;
 }

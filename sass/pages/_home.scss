@@ -18,9 +18,9 @@
 .background {
   background-color: $color-primary;
   transform: skewY(-7deg);
-  padding: 20rem 0;
+  padding: 10rem 0;
   overflow: hidden;
-  height: 70vh;
+  height: 55vh;
   position: relative;
   margin-bottom: -12rem;
   &-wrapper {
@@ -35,16 +35,21 @@
   position: relative;
   &-item {
     display: flex;
+    &__img {
+      border-radius: 0.2rem;
+      box-shadow: 0 1.5rem 4rem rgba($color-secondary, 0.4);
+    }
     &__img--desk {
       max-width: 60%;
     }
     &__img--phone {
-      max-width: 24%;
+      max-width: 22%;
     }
     &__img-wrapper {
       display: flex;
       gap: 1rem;
       flex-basis: 75%;
+      padding-bottom: 5rem;
     }
     &__info {
       flex-basis: 35%;
