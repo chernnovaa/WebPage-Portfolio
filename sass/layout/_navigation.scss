@@ -9,6 +9,10 @@
   z-index: 1;
   top: 50vh;
 
+  &__item {
+    list-style-type: none;
+  }
+
   &__link {
     position: relative;
     color: $color-secondary;

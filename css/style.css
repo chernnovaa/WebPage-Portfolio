@@ -115,6 +115,8 @@ a {
   position: fixed;
   z-index: 1;
   top: 50vh; }
+  .nav__item {
+    list-style-type: none; }
   .nav__link {
     position: relative;
     color: #454545;

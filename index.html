@@ -14,20 +14,26 @@
 
 <body>
   <header class="header">
-    <div class="nav">
-      <a class="nav__link" href="#">
-        <span class="nav-primary">Social</span>
-        <span class="nav-secondary" aria-hidden="true">Social</span>
-      </a>
-      <a class="nav__link" href="#">
-        <span class="nav-primary">Portfolio</span>
-        <span class="nav-secondary" aria-hidden="true">Portfolio</span>
-      </a>
-      <a class="nav__link" href="#">
-        <span class="nav-primary">About</span>
-        <span class="nav-secondary" aria-hidden="true">About</span>
-      </a>
-    </div>
+    <ul class="nav">
+      <li class="nav__item">
+        <a class="nav__link" href="#section--3">
+          <span class="nav-primary">Social</span>
+          <span class="nav-secondary" aria-hidden="true">Social</span>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--2">
+          <span class="nav-primary">Portfolio</span>
+          <span class="nav-secondary" aria-hidden="true">Portfolio</span>
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#section--1">
+          <span class="nav-primary">About</span>
+          <span class="nav-secondary" aria-hidden="true">About</span>
+        </a>
+      </li>
+    </ul>
     <div class="hero">
       <img class="hero__img" src="img/img-me.jpg" alt="Kate Chernova">
       <div class="hero__content">
@@ -37,7 +43,7 @@
     </div>
   </header>
   <main>
-    <section class="about">
+    <section class="about" id="section--1">
       <div class="about__wrapper">
         <p class="paragraph about__text">&ldquo;Hello! My name is Kate, and I'm a front-end developer. I like to
           accurately reproduce the creative work of the designer
@@ -49,7 +55,7 @@
         <p class="background-wrapper__text">Portfolio</p>
       </div>
     </div>
-    <section class="portfolio">
+    <section class="portfolio" id="section--2">
       <div class="portfolio-item">
         <div class="portfolio-item__img-wrapper">
           <img class="portfolio-item__img portfolio-item__img--desk" src="img/nexter-desk.jpg"
@@ -94,6 +100,7 @@
     </section>
   </main>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
